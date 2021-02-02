@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color : #009688;
+    --sec-color : #757575; 
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+section .item .card {
+    box-shadow: 10px 10px 5px #aaaaaa ;
+}
+section .item .card .img h4{
+    margin-top: -2.5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+section .item .card .info{
+    padding: 0.5rem 1rem;
+}
+section .item .card .info ul li{
+    margin-bottom: 1rem;
+    color: var(--sec-color);
+}
+section .item .card .info ul li span{
+    margin-right: 10px;
+    color: var(--main-color)
+}
+section .item .card .skills{
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+}
+section .item .card .skills h3 {
+    color: var(--sec-color);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    margin-bottom: 1rem;
+}
+section .item .card .skills h3 span{
+    color: var(--main-color);
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+section .item .card .skills .prog .progress .progress-bar{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section .item .card .skills .prog h6{
+    color: var(--sec-color);
+    margin-bottom: 0.8rem;
+    text-transform: capitalize;
+}
+section .item .card .language{
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+}
+section .item .card .language h3{
+    color: var(--sec-color);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+section .item .card .language h3 span{
+    color: var(--main-color);
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+section .item .card .language .lang .progress .progress-bar{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section .item .card .language .lang h6{
+    color: var(--sec-color);
+    margin-bottom: 0.8rem;
+    text-transform: capitalize;
+}
+
+
+section .item .work{
+    box-shadow: 10px 10px 5px  #aaaaaa ;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+section .item .work h3{
+    color: var(--sec-color);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+section .item .work h3 span{
+    color: var(--main-color);
+    margin-right: 0.8rem;
+}
+section .item .work .front{
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+section .item .work .front h5{
+    color: #aaa;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+section .item .work .front p ,section .item .work .front p span{
+    color: var(--main-color);
+    margin-right: 1rem;
+}
+section .item .work .front p span.badge{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}
+section .item .work .front p.content{
+    color: #444;
+}
+section .item .education{
+    box-shadow: 10px 10px 10px #aaaaaa ;
+    padding-bottom: 2rem;
+}
+section .item .education h3{
+    color: var(--sec-color);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+section .item .education h3 span{
+    color: var(--main-color);
+    margin-right: 0.8rem;
+}
+section .item .education .info{
+    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+section .item .education .info h5{
+    color: #aaa;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+section .item .education .info p{
+    color: var(--main-color);
+}
+section .item .education .info p span{
+    margin-right: 1rem;
+}
+section .item .education .info p.web{
+    color: var(--sec-color);
+}
+footer{
+    padding: 1rem;
+    background-color: var(--main-color);
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+footer .icons{
+    margin-bottom: 1rem;
+}
+footer p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
